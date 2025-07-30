@@ -1,10 +1,13 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Counter = () => {
 
-
     const [counter, setCounter] = useState(10);
-
+    
+    useEffect(()=>(
+        console.log('post')
+    ),[counter])
+            
 
     const increament = () => {
         // alert('increament')
