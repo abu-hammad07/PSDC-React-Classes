@@ -33,14 +33,14 @@ const BlogList = () => {
     return (
         <>
             {
-                blogData.map((blog) => {
+                blogData.map((blog) => (
                     <BlogCard 
                     key={blog.title}
                     cover={blog.src} 
                     title={blog.title} 
                     shortDescription={blog.shortDescription} 
                     />
-                })
+                ))
             }
 
         </>

@@ -5,8 +5,11 @@ import Card from './components/Card'
 import Categories from './components/Categories'
 import Counter from './components/Counter'
 import Greating from './components/Greating'
+import Login from './components/Login'
 import Post from './components/Post'
+import SignUp from './components/SignUp'
 import Steper from './components/Steper'
+import Todo from './components/Todo/Todo'
 import Welcome from './components/Welcome'
 
 function App() {
@@ -35,7 +38,12 @@ function App() {
 
         {/* <Post /> */}
 
-        <BlogList />
+        {/* <BlogList /> */}
+
+        {/* <Todo /> */}
+
+        {/* <Login /> */}
+        <SignUp />
 
       </div>
     </>
