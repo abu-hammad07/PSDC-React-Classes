@@ -6,11 +6,13 @@ import Categories from './components/Categories'
 import Counter from './components/Counter'
 import Greating from './components/Greating'
 import Login from './components/Login'
+import Navbar from './components/Navbar'
 import Post from './components/Post'
 import SignUp from './components/SignUp'
 import Steper from './components/Steper'
 import Todo from './components/Todo/Todo'
 import Welcome from './components/Welcome'
+import Home from './pages/Home'
 
 function App() {
 
@@ -43,7 +45,9 @@ function App() {
         {/* <Todo /> */}
 
         {/* <Login /> */}
-        <SignUp />
+        {/* <SignUp /> */}
+
+        <Home />
 
       </div>
     </>
