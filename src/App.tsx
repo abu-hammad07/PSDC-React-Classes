@@ -32,7 +32,8 @@ function App() {
         <Card title="Card Title" description="This is a card component." />
         <BlogCard title="Blog 1" shortDescription="Short descrtion" cover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdz-_XVl8NShUAtVTVyh2TFSt0LaRSeqjuHw&s" /> */}
         {/* <Welcome /> */}
-        {/* <Counter /> */}
+        
+        <Counter />
 
         {/* <Categories /> */}
 
@@ -47,7 +48,7 @@ function App() {
         {/* <Login /> */}
         {/* <SignUp /> */}
 
-        <Home />
+        {/* <Home /> */}
 
       </div>
     </>

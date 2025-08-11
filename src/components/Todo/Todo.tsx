@@ -1,6 +1,18 @@
-import { useState, type ChangeEvent, type FormEvent } from "react"
+import { useReducer, useState, type ChangeEvent, type FormEvent } from "react"
+
+
+const todoReducer = (state,action) => {
+    switch (action.type) {
+        case "ADD_TODO":
+            return {
+                todo: [...state.todo, action.payload],
+            }
+    }
+}
 
 const Todo = () => {
+
+    const [state, dispatch] = useReducer(todoReducer, {todo: []})
 
     const [todos, setTodos] = useState([
         'Do to gym',
